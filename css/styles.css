@@ -184,6 +184,7 @@ body {
 .knopka {
   background-color: #f5f4fa;
   color: var(--title-text-color);
+  font-family: Roboto, sans-serif;
 
   font-weight: 500;
   font-size: 16px;
