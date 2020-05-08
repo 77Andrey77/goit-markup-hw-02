@@ -15,6 +15,9 @@ body {
 .list {
   list-style: none;
 }
+.link {
+  text-decoration: none;
+}
 .logo {
   color: #2196f3;
   text-decoration: none;
@@ -27,7 +30,6 @@ body {
 /* шапка сайта */
 .site-nav .link {
   color: var(--title-text-color);
-  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -36,62 +38,94 @@ body {
 
 .auth-nav .link {
   color: var(--text-color);
-  text-decoration: none;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
   color: var(--accent-color);
 }
+.site-nav .carrent {
+  color: var(--accent-color);
+}
+/* стили для index.html */
 /* герой */
-.hero-title{
+.hero .title {
   text-transform: uppercase;
-}
-.hero > a{
   color: var(--text-white-color);
-  text-decoration: none;
-  background-color: var(--accent-color);
+  background-color: red;
 }
+/* .hero > a {
+  color: var(--text-white-color);
+  background-color: var(--accent-color);
+} */
+
 /* отличительные характеристики */
-.section-title{
+.section .title {
   font-size: 36px;
 }
-.section-option{
+.section-option {
   text-transform: uppercase;
 }
-.section-text{
+.section-text {
   color: var(--text-color);
 }
 /* чем занимаемся */
-.section-work{
+.section-work {
   text-transform: uppercase;
   color: var(--text-white-color);
   background-color: rgba(47, 48, 58, 0.8);
 }
 /* наша команда */
-.section-name{
+.section-name {
   font-size: 16px;
 }
-.section-job{
+.section-job {
   color: var(--text-color);
 }
 /* подвал */
-.footer{
-  background-color:  #2F303A;
+.footer {
+  background-color: #2f303a;
 }
 .foter-logo-studio {
   color: #ffffff;
 }
-.footer .map{
-  color: #FFFFFF;
+.footer .map {
+  color: #ffffff;
 }
-.address a{
-  color:rgba(255, 255, 255, 0.6);
+.address a {
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-.join{
+.join {
   color: var(--text-white-color);
   text-transform: uppercase;
 }
-.finish{
+.finish {
   color: rgba(255, 255, 255, 0.4);
+}
+.button {
+  color: var(--text-white-color);
+  background-color: var(--accent-color);
+}
+
+/*стили для portfolio.html */
+
+/* кнопки */
+.knopka {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+}
+.knopka:hover,
+.knopka:focus {
+  background-color: var(--accent-color);
+  color: var(--text-white-color);
+}
+.card-title {
+  color: var(--title-text-color);
+}
+.card-work {
+  color: var(--text-color);
+}
+.card-text {
+  color: var(--text-white-color);
+  background-color: rgba(33, 150, 243, 0.9);
 }
