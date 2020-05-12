@@ -26,6 +26,7 @@ body {
   color: #2196f3;
 
   font-family: Raleway;
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -93,7 +94,7 @@ body {
 
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
 }
 .section-text {
   color: var(--text-color);
@@ -109,7 +110,7 @@ body {
 
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   /* text-align: center; */
 }
 /* наша команда */
@@ -153,7 +154,7 @@ body {
   text-transform: uppercase;
 
   font-size: 14px;
-  line-height: 16;
+  line-height: 1.14;
 }
 .finish {
   color: rgba(255, 255, 255, 0.4);
